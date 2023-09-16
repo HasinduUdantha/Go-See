@@ -1,6 +1,8 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import HeroImg from "../Assests/service_1.jpeg"
+import Trip from "../components/Trip";
 function Service (){
     return(
         <>
@@ -8,10 +10,11 @@ function Service (){
         <Navbar/>
         <Hero 
         cName = "hero-mid"
-        heroImg = "https://images.pexels.com/photos/2361999/pexels-photo-2361999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        heroImg = {HeroImg}
         title = "Services"
         text = "Crafting Personalized Travel Experiences."
         />
+        <Trip/> 
         <Footer/>
         </>
     );

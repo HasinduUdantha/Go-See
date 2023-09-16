@@ -12,6 +12,7 @@ function Contact (){
         title = "Contact Us"
         text = "Your Adventure Awaits."
         />
+        
         <Footer/>
         </>
     );
