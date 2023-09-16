@@ -1,6 +1,6 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-   
+import Footer from "../components/Footer";
 function Service (){
     return(
         <>
@@ -11,8 +11,8 @@ function Service (){
         heroImg = "https://images.pexels.com/photos/2361999/pexels-photo-2361999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         title = "Services"
         text = "Crafting Personalized Travel Experiences."
-        
         />
+        <Footer/>
         </>
     );
 }
