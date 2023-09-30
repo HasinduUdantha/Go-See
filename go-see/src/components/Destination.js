@@ -3,6 +3,8 @@ import pamukkale from "../Assests/pamukkale.jpg";
 import pamukkale_2 from "../Assests/pamukkale_2.jpg";
 import bali_1 from "../Assests/bali_1.jpg";
 import bali_2 from "../Assests/bali_2.jpeg";
+import rome_1 from "../Assests/rome_1.jpg";
+import rome_2 from "../Assests/rome_2.jpg";
 
 import "./DestinationStyles.css";
 
@@ -35,6 +37,20 @@ const Destination = () => {
             you will find intricately carved temples."
         img1={bali_1}
         img2={bali_2}
+      />
+
+      <DestinationData
+        className="first-des"
+        heading="Rome, Italy"
+        text="
+        Rome, often referred to as the Eternal City,
+         is a destination that captivates travelers with its rich history,
+          art, architecture, and undeniable beauty. 
+          This iconic city offers a blend of ancient and modern attractions that 
+          continue to draw visitors from around the world.
+          Modern Rome has 280 fountains and more than 900 churches."
+        img1={rome_1}
+        img2={rome_2}
       />
     </div>
   );
